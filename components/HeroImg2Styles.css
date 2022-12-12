@@ -1,0 +1,90 @@
+
+.mask{
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.intro-img{
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+
+}
+
+.mask::after{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+.hero{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.content{
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+
+}
+
+.hero-img .content h1{
+
+    font-size: 6rem;
+    padding: 0.6rem 0 2rem;
+
+}
+
+.hero-img .content p{
+
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 640px){
+
+    .hero-img .mask .intro-img{
+
+        width: 100%;
+        height: 85%;
+
+    }
+    
+    .hero-img .content h1{
+
+        font-size: 4rem;
+        position: relative;
+        top: -2rem;
+    
+    }
+    
+    .hero-img .content p{
+    
+        font-size: 0.75rem;
+        position: relative;
+        top: -2rem;
+    
+    }
+}

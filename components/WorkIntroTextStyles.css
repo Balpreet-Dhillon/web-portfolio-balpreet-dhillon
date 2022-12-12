@@ -1,0 +1,392 @@
+
+.process-content{
+
+    background-color: rgb(8, 8, 8);
+
+}
+.process-content h1{
+
+    font-size: 5rem;
+    padding-bottom: 1rem;
+
+}
+@media screen and (max-width: 640px){
+
+    .process-content h1{
+
+        padding-bottom: 0.75rem;
+
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .process-content h1{
+
+        font-size: 3rem;
+    
+    }
+
+    .process-content .paragraph {
+
+        font-size: 1rem;
+    
+    }
+
+    .process-content .bottom-sentence {
+
+        font-size: 1rem;
+    
+    }
+
+
+
+
+}
+
+.process-content .paragraph {
+
+    padding-bottom: 1rem;
+
+}
+
+.process-icons{
+
+
+    justify-content: center;
+    width: 100%;
+    padding-top: 4rem;
+    position: relative;
+    right: -2.5rem;
+
+}
+
+@media screen and (min-width: 542px){
+
+    .process-icons{
+
+        display: flex;
+
+    }
+
+}
+
+
+.ux-design-icon{
+
+    display: block;
+    margin-right: 5rem;
+    text-align: center;
+
+}
+
+
+
+.best-practices-icon{
+
+    margin-right: 5rem;
+    text-align: center;
+    
+
+}
+
+
+
+.ux-design-label{
+
+    position: relative;
+    left: -1rem;
+    padding-top: 0.5rem;
+
+}
+
+.functionality-label{
+
+    position: relative;
+    left: -1.6rem;
+    padding-top: 0.5rem;
+
+}
+
+.best-practices-label{
+
+    position: relative;
+    left: -0.95rem;
+    padding-top: 0.5rem;
+
+}
+
+.responsive-design-label{
+
+    position: relative;
+    left: -1rem;
+    padding-top: 0.5rem;
+
+}
+
+
+
+
+@media screen and (min-width: 1044px){
+
+    .process-content{
+
+        padding: 10.25rem 17rem;
+        /* justify-content: center; */
+    
+    }
+
+}
+
+@media screen and (max-width: 1044px){
+
+    /* .process-icons{
+
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        place-items: center;
+        width: 100%;
+    
+    } */
+
+    .process-content{
+
+        padding: 14rem 4rem;
+        /* justify-content: center; */
+    
+    }
+    
+}
+
+/* @media screen and (max-width: 900px){
+
+    .process-icons{
+
+        display: block;
+        place-items: center;
+        width: 100%;
+
+    }
+
+
+
+} */
+
+
+@media screen and (min-width: 845px){
+
+    .top{
+
+        display: flex;
+    
+    }
+    
+    .bottom{
+    
+        display: flex;
+    
+    }
+
+    .functionality-icon{
+
+        margin-right: 5rem;
+    
+    }
+
+    
+    .fully-responsive-design{
+
+
+        text-align: center;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 845px){
+
+    .process-content h1{
+
+        font-size: 2rem;
+
+    }
+
+    #root > div > div.process-content > p.paragraph{
+
+        font-size: 0.75rem;
+
+    }
+
+    #root > div > div.process-content > p.bottom-sentence{
+
+        font-size: 0.75rem;
+
+    }
+
+    #root > div > div.process-content > div > div{
+
+        font-size: 0.75rem;
+
+    }
+
+    #root > div > div.process-content > div > div > div.top > div.ux-design-icon > svg{
+
+        width: 35px;
+        height: 35px;
+
+    }
+
+    #root > div > div.process-content > div > div > div.bottom > div.best-practices-icon > svg > path:nth-child(2){
+
+        width: 35px;
+        height: 35px;
+
+    }
+
+    #root > div > div.process-content > div > div > div.bottom > div.best-practices-icon > svg{
+
+        width: 35px;
+        height: 35px;
+
+    }
+
+    #root > div > div.process-content > div > div > div.top > div.functionality-icon > svg{
+
+        width: 35px;
+        height: 35px;
+
+    }
+
+    #root > div > div.process-content > div > div > div.bottom > div.fully-responsive-design > svg{
+
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: -0.5rem;
+
+    }
+    #root > div > div.process-content > div > div > div.top > div.functionality-icon > p{
+
+        position: relative;
+        left: -1rem;
+
+    }
+    #root > div > div.process-content > div > div{
+
+        padding-top: 4rem;
+
+    }
+
+    .functionality-icon{
+
+        margin-top: 1rem;
+
+    }
+
+    .fully-responsive-design{
+
+        margin-top: 1rem;
+        margin-left: 0.4rem;
+
+    }
+
+    .responsive-design-label {
+    
+        position: relative;
+        left: -2rem;
+
+    }
+
+    .icon-section{
+
+        position: relative;
+        right: -1rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 542px){
+    #root > div > div.process-content > div > div > div.top > div.functionality-icon > p{
+    
+        position: relative;
+        left: -2.23rem;
+    
+    
+    }
+    
+    #root > div > div.process-content > div > div > div.bottom > div.fully-responsive-design > svg{
+    
+    
+        position: relative;
+        left: -1.4rem;
+    
+    }
+    }
+    
+
+
+@media screen and (max-width: 542px){
+
+    /* .functionality-icon{
+
+        margin-left: 2.85rem;
+        
+    }
+
+    .functionality-label{
+
+        margin-left: 2.85rem;
+
+    } */
+
+    .best-practices-icon{
+
+        margin-top: 1rem;
+
+    }
+
+    .fully-responsive-design{
+
+        text-align: center;
+        position: relative;
+        left: -1.5rem;
+
+
+    }
+
+    .functionality-icon{
+        
+        text-align: center;
+        position: relative;
+        left: -1.25rem;
+
+    }
+
+    /* .responsive-design-label{
+
+        margin-left: 2.2rem;
+
+    } */
+
+}
+
+@media screen and (max-width: 366px){
+
+    .process-icons{
+
+        white-space: nowrap;
+
+    }
+
+    #root > div > div.process-content > div > div{
+
+        position: relative;
+        right: -2.5rem;
+
+    }
+}

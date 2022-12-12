@@ -1,0 +1,185 @@
+.footer{
+
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 18, 18, 0,8);
+
+}
+
+.footer-container{
+
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    grid-gap: 40px;
+
+
+}
+
+
+@media screen and (min-width: 641px){
+
+    .left{
+
+        height: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 12rem 1rem 0rem;
+        margin-left: 5rem;
+        
+    
+    }
+
+    .right{
+
+        height: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .footer-container{
+
+        position: relative;
+        right: -0.5rem;
+    
+    
+    }
+}
+
+.say-hello-footer-message{
+
+    padding-bottom: 0.75rem;
+    width: 100%;
+}
+
+.right{
+
+    height: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.icons{
+
+    display: grid;
+    grid-template-columns: 52px 50px 50px;
+
+}
+
+
+@media screen and (min-width: 641px){
+
+    .linkedin-icon{
+
+        position: relative;
+        top: -0.2rem;
+    
+    } 
+
+    .right{
+
+        position: relative;
+        left: -5rem;
+    
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .footer{
+
+        padding-bottom: 10rem;
+
+    }
+
+    .icons{
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .linkedin-icon{
+
+            position: relative;
+            bottom: -0rem;
+
+    }
+
+    .right{
+
+        text-align: center;
+
+    }
+
+    .left{
+
+        text-align: center;
+
+    }
+
+    .say-hello-footer-message{
+
+        padding-bottom: 1rem;
+
+    }
+
+    .left p{
+    
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 2rem;
+
+
+    }
+
+    .icons{
+
+        position: relative;
+        right: -0.35rem;
+        
+    }
+
+
+}
+
+.right p{
+
+    padding-top: 0.25rem;
+    font-size: 0.7rem;
+    position: relative;
+    right: -0.15rem;
+
+}
+
+@media screen and (max-width: 640px){
+
+    .footer-container{
+
+        display: block;
+    
+    
+    }
+    
+}
+
+.left a{
+
+        text-decoration: underline white 0.5px;
+
+}
+
+.left a:hover{
+
+        color: grey;
+        transition: 0.3s;
+        text-decoration: underline grey 0.5px;
+
+}
+

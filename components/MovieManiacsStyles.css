@@ -1,0 +1,1573 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+.movie-maniacs-content{
+
+    background-color: rgb(8, 8, 8);
+
+}
+
+.overview-title-paragraph{
+
+    inline-size: 350px;
+    overflow-wrap: break-word;
+
+}
+
+.left-movie-maniacs-content h1{
+
+    padding-bottom: 0.5rem;
+
+}
+
+.overview-title-paragraph{
+
+    padding-bottom: 2rem;
+
+}
+
+.movie-maniacs-development-stack-items{
+
+    display: flex;
+    padding-top: 0.5rem;
+
+}
+
+.movie-maniaces-languages-one{
+
+    padding-right: 1.5rem;
+
+}
+
+.movie-maniaces-languages-two{
+
+    padding-right: 1.5rem;
+
+}
+
+.movie-maniacs-laptop-view{
+
+    text-align: center;
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+
+}
+
+
+
+  .project-overview-info{
+
+    justify-content: center;
+
+
+}
+
+  
+
+
+@media  screen and (min-width: 845px) {
+  
+  .project-overview-info{
+
+    display: flex;
+
+}
+
+}
+
+
+@media screen and (min-width: 845px){
+
+  .left-movie-maniacs-content {
+    padding-right: 2rem;
+  }
+
+}
+
+.role{
+
+    padding-bottom: 2rem;
+
+}
+
+.role h1{
+
+    padding-bottom: 0.5rem;
+
+}
+
+.development-team{
+
+    padding-bottom: 2rem;    
+
+}
+
+.development-team h1{
+
+    padding-bottom: 0.5rem;    
+
+}
+
+.duration h1{
+
+    padding-bottom: 0.5rem;    
+
+}
+
+@media screen and (min-width: 846px){
+
+.movie-maniac-project-overview-buttons{
+
+    padding-top: 3rem;
+
+}
+}
+
+
+
+.movie-maniac-btn{
+
+    padding: 12px 32px;
+    font-size: 1rem;
+    background: rgb(216, 204, 126);
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 0.85rem;
+  
+  }
+  
+  .movie-maniac-btn-light{ 
+  
+    padding: 12px 42px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+  
+  } 
+  
+  .movie-maniac-btn:hover{
+  
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s;
+  
+  }
+
+  .movie-maniac-title-subtitle{
+
+    position: relative;
+    bottom: -12rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+  }
+
+  .movie-maniac-title-subtitle h1{
+
+
+    font-size: 3rem;
+
+
+  }
+
+  .movie-maniac-title-subtitle p{
+
+
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-top: 0.25rem;
+
+  }
+
+  .hero-img{
+
+    background-color: rgb(8, 8, 8);
+
+  }
+
+  .in-depth-info {
+
+    max-width: 73rem;
+    margin: auto;
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+
+}
+
+.reflection{
+
+  padding: 10.25rem 2rem;
+  max-width: 73rem;
+  margin: auto;
+
+
+}
+
+  /* @media screen and (min-width: 1044px){
+
+    .in-depth-info {
+
+      padding: 10.25rem 17rem;
+
+}
+} */
+
+  .in-depth-info h1{
+
+        font-size: 5rem;
+        padding-bottom: 1.5rem;
+
+  }
+
+  .desktop-img{
+
+        text-align: center;
+        padding-bottom: 10.25rem;
+
+
+  }
+
+  .desktop-previews{
+
+        padding-top: 10.25rem;
+
+  }
+
+.color-palette{
+
+    
+
+  max-width: 73rem;
+  margin: auto;
+  padding-top: 10.25rem;
+  padding-bottom: 10.25rem;
+
+}
+
+.color-palette h1{
+
+    
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+  .colors{
+
+    justify-content: center;
+    padding-top: 2rem;
+
+  }
+
+  @media screen and (min-width: 465px){
+
+    .colors {
+
+      display: flex;
+
+    }
+
+    .color-option{
+
+      padding-right: 2.5rem;
+  
+    }
+  
+  }
+
+
+
+  .color{
+
+    padding-bottom: 0.5rem;
+
+  }
+
+  .typography{
+
+
+    max-width: 73rem;
+    margin: auto;
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+
+
+  }
+
+  .typography h1{
+
+    font-size: 5rem;
+    padding-bottom: 2rem;
+
+  }
+
+  .font-letters p{
+
+    font-size: 3rem;
+    border: solid white 1px;
+    margin-bottom: 1rem;
+
+  }
+
+.letters{
+
+  inline-size: 82px;
+  padding: 0.5rem;
+  overflow-wrap: break-word;
+
+
+}
+
+.font-family{
+
+  font-size: 1.25rem;
+  padding-bottom: 0.25rem;
+
+}
+
+.project-detail-logo-section{
+
+  max-width: 73rem;
+  margin: auto;
+  padding-top: 10.25rem;
+  padding-bottom: 10.25rem;
+
+}
+
+.project-detail-logo-section h1{
+
+  font-size: 5rem;
+  padding-bottom: 2rem;
+
+}
+
+.movie-maniacs-logo{
+
+  text-align: center;
+
+}
+
+.movie-maniacs-mobile-preview{
+
+  justify-content: center;
+  padding-top: 10.25rem;
+  padding-bottom: 10.25rem;
+
+}
+
+@media screen and (min-width: 465px){
+
+  .movie-maniacs-mobile-preview{
+
+    display: flex;
+
+}
+
+.movie-maniacs-mobile{
+
+  padding-right: 2rem;
+
+}
+}
+@media screen and (max-width: 465px){
+#root > div > div.movie-maniacs-content > div.movie-maniacs-mobile-preview{
+
+
+text-align: center;
+
+}
+}
+
+
+
+
+.reflection h1{
+
+  font-size: 5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+/* .reflection p{
+
+  inline-size: 950px;
+  overflow-wrap: break-word;
+
+} */
+
+.end-page-btn{
+
+  padding: 12px 32px;
+  font-size: 1rem;
+  background: rgb(216, 204, 126);
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 0.85rem;
+
+}
+
+@media screen and (min-width: 375px){
+
+  .end-page-btn{
+
+    margin-left: 5rem;
+  
+  }
+}
+
+.end-page-btn-light{ 
+
+  padding: 12px 42px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 10rem;
+
+} 
+
+.end-page-btn:hover{
+
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
+
+}
+
+.planning-buttons{
+
+  text-align: center;
+
+}
+
+.memo-of-understanding{
+
+  padding-bottom: 3rem;
+
+}
+
+.content-plan{
+
+  padding-bottom: 3rem;
+
+}
+
+.development-plan{
+
+  padding-bottom: 3rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.memo-of-understanding > a{
+
+  padding: 12px 86.75px;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.content-plan > a{
+
+  padding: 12px 127px;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.wireframes > a{
+
+  padding: 12px 99px;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.development-plan > a{
+
+  padding: 12px 82.5px;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.wireframes > a{
+
+    padding: 12px 57.5px;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons{
+
+  position: relative;
+  top: -6rem;
+
+}
+
+.project-overview-info{
+
+padding-bottom: 2rem;
+
+}
+
+@media screen and (max-width: 920px){
+
+  #root > div > div.hero-img > div.movie-maniacs-laptop-view > img{
+
+    width: 35rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.desktop-previews img{
+
+    width: 35rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniacs-mobile-preview img{
+
+    width: 10rem;
+
+  }
+
+  .movie-maniac-title-subtitle h1 {
+
+    font-size: 2rem;
+  
+  }
+  
+  .movie-maniac-title-subtitle p {
+  
+    font-size: 0.75rem;
+  
+  }
+
+
+}
+
+@media screen and (max-width: 1000px){
+
+
+.laptop-img {
+  padding-top: 0rem;
+}
+}
+
+@media screen and (min-width: 920px){
+
+  .top-movie-maniacs{
+
+    display: flex;
+
+  }
+
+  .bottom-movie-maniacs{
+
+    display: flex;
+
+  }
+}
+
+@media screen and (max-width: 1000px){
+
+  #root > div > div.hero-img > div.movie-maniac-title-subtitle{
+
+    top: 25%;
+
+  }
+}
+
+@media screen and (max-width: 845px){
+
+  #root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.movie-maniacs-development-stack > h1{
+
+    text-align: center;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.movie-maniacs-development-stack{
+
+    text-align: center;
+
+  }
+
+  #root > div > div.movie-maniacs-content p {
+
+    font-size: 0.75rem;
+  }
+
+  #root > div > div.movie-maniacs-content h1 {
+
+    font-size: 2rem;
+
+  }
+
+  .in-depth-info h1{
+
+    padding-bottom: 0.75rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-overview-info h1{
+
+    font-size: 1.5rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.movie-maniacs-development-stack > div > div{
+
+
+    justify-content: center;
+    padding-bottom: 2rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.color-palette > div img{
+
+    width: 100px;
+    height: auto;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.project-detail-logo-section > div > img{
+
+    width: 100px;
+    height: auto;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.typography > div > p{
+
+    inline-size: 35px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 845px){
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.overview-title-paragraph{
+
+  margin: auto;
+
+}
+
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.movie-maniacs-development-stack{
+
+  margin: auto;
+
+}
+
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.overview-title-paragraph{
+
+  margin: auto;
+
+}
+
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.right-movie-maniacs-content{
+
+  text-align: center;
+
+
+}
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.overview-title-paragraph{
+
+  text-align: center;
+
+}}
+
+
+#root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.return-home-btn{
+
+    left: -7rem;
+    position: relative;
+
+}
+
+#root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.best-practices-icon{
+
+  left: -2.25rem;
+
+}
+
+@media screen and (max-width: 1488px){
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.return-home-btn{
+
+    left: 0rem;
+    position: relative;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.next-project-btn{
+
+    left: -5rem;
+    position: relative;
+
+
+  } 
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.best-practices-icon{
+
+    position: relative;
+    left: 4.5rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.return-home-btn{
+
+    left: -4.5rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.next-project-btn{
+
+    font-size: 0.75rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.return-home-btn{
+
+    font-size: 0.75rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.best-practices-icon{
+
+    position: relative;
+    bottom: -0.7rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.return-home-btn{
+
+    position: relative;
+    bottom: -0.65rem;
+
+
+  }
+}
+
+@media screen and (max-width: 1044px){
+
+  .in-depth-info {
+    padding: 14rem 4rem;
+}
+
+}
+
+
+@media screen and (max-width: 1282px){
+
+  .in-depth-info {
+
+    padding: 14rem 4rem;
+
+  }
+
+  .typography {
+
+    padding: 14rem 4rem;
+
+  }
+
+  .reflection {
+
+    padding: 14rem 4rem 5rem 4rem;
+
+  }
+
+  .color-palette {
+
+    padding: 14rem 4rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.project-detail-logo-section{
+
+    padding: 14rem 4rem;
+
+  }
+}
+
+@media screen and (max-width: 971px){
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.end-page-btn-light{
+
+    font-size: 0.75rem;
+    padding: 7px 27.5px;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.end-page-btn{
+
+    font-size: 0.75rem;
+    padding: 7px 22px;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.mobie-forwards-backwards > div.backwards{
+
+    position: relative;
+    left: -0.4rem;
+
+  }
+}
+
+@media  screen and (max-width:790px) {
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.next-project-btn {
+    left: -8rem;
+    position: relative;
+  
+}
+
+#root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.return-home-btn {
+
+  left: -7.5rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.return-home-btn {
+
+  left: 3rem;
+  position: relative;
+
+}
+
+#root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.best-practices-icon {
+  
+  position: relative;
+  left: 7.5rem;
+
+}
+
+}
+
+.mobie-forwards-backwards{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+@media  screen and (min-width: 721px) {
+
+.mobie-forwards-backwards{
+
+  display: none;
+
+}
+
+
+.movie-maniac-project-overview-buttons{
+
+  text-align: center;
+  padding-bottom: 12rem;
+
+}
+
+
+
+}
+
+@media  screen and (max-width: 721px){
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.next-project-btn{
+
+    display: none;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.return-home-btn > path{
+
+    display: none;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.return-home-btn{
+
+    display: none;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > svg.best-practices-icon{
+
+    display: none;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons{
+
+    text-align: center;
+
+    margin-bottom: 1rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.mobie-forwards-backwards{
+
+    padding-bottom: 10rem; 
+
+  }
+
+  .backwards{
+
+    padding-right: 0.6rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.mobie-forwards-backwards > div.backwards > a{
+
+    font-size: 0.75rem;
+  
+  }
+  
+  #root > div > div.movie-maniacs-content > div.mobie-forwards-backwards > div.forwards > a{
+  
+    font-size: 0.75rem;
+  
+  }
+
+  #root > div > div.movie-maniacs-content > div.mobie-forwards-backwards > div.forwards > svg{
+
+    position: relative;
+    bottom: -0.7rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.mobie-forwards-backwards > div.backwards > svg > path{
+
+    position: relative;
+    bottom: -0.7rem;
+
+  }
+
+  .end-page-btn-light {
+
+    margin-right: 3.75rem;
+  
+  }
+}
+
+
+
+@media screen and (max-width: 640px){
+
+  #root > div > div.hero-img > div.movie-maniacs-laptop-view > img {
+    
+    width: 25rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.desktop-previews img {
+
+    width: 25rem;
+
+  }  
+}
+
+@media screen and (max-width: 640px){
+
+  #root > div > div.hero-img > div.movie-maniacs-laptop-view > img {
+    
+    width: 20rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.desktop-previews img {
+
+    width: 20rem;
+
+  }  
+}
+
+@media screen and (max-width: 400px){
+
+  #root > div > div.hero-img > div.movie-maniacs-laptop-view > img {
+    
+    width: 15rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.desktop-previews img {
+
+    width: 15rem;
+
+  }  
+
+}
+
+
+@media screen and (max-width: 400px){
+
+  
+  .movie-maniac-title-subtitle h1{
+
+    font-size: 1.5rem;
+
+  }
+
+  .movie-maniac-title-subtitle p{
+
+    font-size: 0.6rem;
+
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  #root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.overview-title-paragraph > p{
+
+    max-width: 16rem;
+    margin: auto;
+  
+  }
+}
+
+@media screen and (max-width: 845px){
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.right-movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.movie-maniac-btn{
+
+    padding: 10px 18px;
+    font-size: 0.75rem;
+  
+}
+
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.right-movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.movie-maniac-btn-light{
+  padding: 10px 26px;
+  font-size: 0.75rem;
+}
+}
+
+@media screen and (max-width: 550px){
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.color-palette > div img {
+    width: 70px;
+    height: auto;
+}
+
+}
+
+
+@media screen and (max-width: 465px){
+
+  #root > div > div.movie-maniacs-content p {
+
+    font-size: 0.6rem;
+
+  }
+
+  .colors{
+
+    text-align: center;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.typography > div > p {
+  
+    inline-size: 30px;
+  
+  }
+}
+
+
+@media screen and (max-width: 400px){
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.left-movie-maniacs-content > div.overview-title-paragraph{
+
+
+  max-width: 13rem;
+
+}
+}
+
+@media screen and (max-width: 375px){
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons{
+
+    white-space: nowrap;
+
+  
+  }
+  
+  .reflection {
+    padding: 4rem 4rem;
+  }
+
+  .end-page-btn-light {
+    margin-right: 0rem;
+}
+
+#root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.end-page-btn {
+  font-size: 0.75rem;
+  padding: 7px 15px;
+  position: relative;
+  right: -0.75rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.end-page-btn-light {
+  font-size: 0.75rem;
+  padding: 7px 20.5px;
+  position: relative;
+  right: -0.75rem;
+}
+
+}
+
+#root > div > div.movie-maniacs-content > div.project-overview-info > div.right-movie-maniacs-content > div.duration{
+
+  padding-bottom: 1.5rem;
+}
+
+
+  #root > div > div.movie-maniacs-content > div.mobie-forwards-backwards > div.backwards > a{
+
+    position: relative;
+    top: -0.1rem;
+
+  }
+
+#root > div > div.movie-maniacs-content > div.mobie-forwards-backwards > div.forwards > a{
+
+    position: relative;
+    top: -0.1rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.return-home-btn{
+
+    position: relative;
+    top: -0.1rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.movie-maniac-project-overview-buttons > a.next-project-btn{
+
+    position: relative;
+    top: -0.1rem;
+
+  }
+
+  @media screen and (max-width: 1044px){
+
+    .reflection {
+
+      padding: 14rem 4rem 3rem 4rem;
+
+    }
+
+  }
+
+  @media screen and (max-width: 466px){
+
+    .reflection {
+
+      padding: 14rem 4rem 2.5rem 4rem;
+
+    }
+
+  }
+
+.movie-maniac-wireframe-btn-light{
+
+    padding: 12px 42px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+
+  }
+
+  .movie-maniac-mockup-btn-light{
+
+
+    padding: 12px 51.5px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+
+  }
+
+  .movie-maniacs-wireframe{
+
+    padding-bottom: 3rem;
+    
+  }
+
+  .movie-maniacs-mockup{
+
+    padding-bottom: 3rem;
+
+  }
+
+  .planning-ctas{
+
+    text-align: center;
+    position: relative;
+    top: -6rem;
+    padding-bottom: 1rem;
+
+  }
+
+  @media screen and (max-width: 846px){
+
+    .movie-maniacs-wireframe {
+  
+      padding-bottom: 2.25rem;
+  
+      }
+  
+      .movie-maniac-wireframe-btn-light{
+  
+        padding: 10px 28px;
+        font-size: 0.75rem;
+    
+      }
+    
+      .movie-maniac-mockup-btn-light{
+    
+        padding: 10px 35px;
+        font-size: 0.75rem;
+    
+      }  
+  
+      .planning-ctas {
+  
+        position: relative;
+        top: -10.5rem;
+      
+      }
+    }
+    
+  @media screen and (max-width: 846px){
+
+
+    .movie-maniac-wireframe-btn-light{
+  
+        padding: 10px 18px;
+        font-size: 0.6rem;
+  
+    }
+  
+    .movie-maniac-mockup-btn-light{
+  
+        padding: 10px 24.5px;
+        font-size: 0.6rem;
+  
+    }  
+
+    .movie-maniacs-wireframe {
+
+      padding-bottom: 1.5rem;
+
+    }
+}
+  
+.movie-maniacs-typography{
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.movie-maniacs-typography p{
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.yvr-wear-typography{
+
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.yvr-wear-typography p{
+
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+@media screen and (max-width: 845px){
+
+#root > div > div.movie-maniacs-content > div.project-details > div:nth-child(2) > div > div > p{
+
+  inline-size: 35px;
+
+
+}
+
+}
+
+@media screen and (max-width: 846px){
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.memo-of-understanding > a{
+    
+    font-size: 0.6rem;
+    padding: 12px 35px;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.content-plan > a {
+   
+    padding: 12px 59px;
+    font-size: 0.6rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.development-plan > a {
+    padding: 12px 31px;
+    font-size: 0.6rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.wireframes > a {
+  
+  padding: 12px 15.5px;
+  font-size: 0.6rem;
+
+}
+
+  .memo-of-understanding {
+
+    padding-bottom: 2rem;
+
+  }
+
+  .development-plan {
+
+    padding-bottom: 2rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons {
+    position: relative;
+    top: -10rem;
+}
+}
+
+.planning-buttons{
+
+  justify-content: center;
+
+}
+
+
+@media screen and (min-width: 558px){
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons{
+
+    display: flex;
+
+  }
+
+  .left-planning-buttons {
+
+    margin-right: 1rem;
+
+  }
+}
+
+@media screen and (max-width: 558px){
+
+.content-plan {
+
+    padding-bottom: 2rem;
+  
+  }
+}
+
+
+@media screen and (max-width: 465px){
+
+#root > div > div.movie-maniacs-content > div.project-details > div:nth-child(2) > div > div > p {
+    
+  inline-size: 32px;
+  
+  }
+}
+
+#root > div > div.movie-maniacs-content > div.project-details > div.color-palette > div > ul:nth-child(2) > li > img{
+
+  padding-top: 1.5rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.project-details > div.color-palette > div > ul:nth-child(3) > li > img{
+
+  padding-top: 1.5rem;
+
+}
+
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.portfolio-content-plan > a{
+
+  font-size: 0.6rem;
+  padding: 12px 82px;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.portfolio-content-plan{
+
+  padding-bottom: 2rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.portfolio-ia > a{
+
+  font-size: 0.6rem;
+  padding: 12px 56px;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.portfolio-ia{
+
+  padding-bottom: 2rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.portfolio-wireframe > a{
+
+  font-size: 0.6rem;
+  padding: 12px 86px;
+}
+
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.portfolio-wireframe{
+
+  padding-bottom: 2rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.portfolio-prototype > a{
+
+  font-size: 0.6rem;
+  padding: 12px 25px;  
+
+}
+
+@media screen and (min-width: 846px){
+
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.portfolio-content-plan > a{
+
+    font-size: 1rem;
+    padding: 12px 139px;
+  
+  }
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.portfolio-content-plan{
+
+    padding-bottom: 2.8rem;
+  
+  }
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.left-planning-buttons > div.portfolio-ia > a{
+
+    font-size: 1rem;
+    padding: 12px 96px;
+    
+  
+  }
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.portfolio-wireframe{
+
+    padding-bottom: 2.8em;
+  
+  }
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.portfolio-wireframe > a{
+
+    font-size: 1rem;
+    padding: 12px 136px;
+
+  
+  }
+
+  #root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.portfolio-prototype > a{
+
+    font-size: 1rem;
+    padding: 12px 35px;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.portfolio-style-guide{
+
+    text-align: center;
+    position: relative;
+    top: -5.25rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.portfolio-style-guide > a{
+
+    font-size: 1rem;
+    padding: 12px 145px;
+    
+  }
+}
+
+@media screen and (max-width: 846px){
+#root > div > div.movie-maniacs-content > div.portfolio-style-guide{
+
+  text-align: center;
+  position: relative;
+  top: -9.9rem;
+
+}
+
+#root > div > div.movie-maniacs-content > div.portfolio-style-guide > a{
+
+  font-size: 0.6rem;
+  padding: 12px 85px;
+  
+}
+}
+
+
+@media screen and (max-width: 558px){
+#root > div > div.movie-maniacs-content > div.planning-buttons > div.right-planning-buttons > div.portfolio-prototype{
+
+  padding-bottom: 2rem;
+
+}
+}
+
+@media screen and (min-width: 465px){
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.color-palette > div > ul:nth-child(1) > li{
+
+    position: relative;
+    bottom: -1.5rem;
+
+  }
+
+  #root > div > div.movie-maniacs-content > div.project-details > div.color-palette > div > ul:nth-child(4) > li{
+
+    position: relative;
+    bottom: -1.5rem;
+
+  }
+}
+  
+@media screen and (min-width: 846px){
+.two-btns{
+
+  position: relative;
+  bottom: -3.5rem;
+
+}
+}
