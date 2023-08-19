@@ -140,7 +140,6 @@
 
 }
 
-
 .learn-more-btn{
 
     padding: 12px 32px;
@@ -157,7 +156,7 @@
 
 .learn-more-btn-light{
 
-    padding: 12px 32px;
+  padding: 12px 32px;
   font-size: 1rem;
   background: rgba(255, 255, 255, 0.2);
   background: transparent;
@@ -167,6 +166,37 @@
   cursor: pointer;
 
 
+
+}
+
+@media screen and (min-width: 846px){
+#githubbtn{
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+}
+
+@media screen and (min-width: 430px){
+
+    #githubbtn{
+
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+    
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    #githubbtn{
+
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    
+    }
 
 }
 
@@ -294,9 +324,7 @@
         font-size: 0.7rem;
 
     }
-
 }
-
 
 @media screen and (max-width: 429px){
 
@@ -314,7 +342,6 @@
     
         }
 }
-
 
 @media screen and (max-width: 350px){
 
@@ -349,7 +376,6 @@
 
 
     }
-
 }
 
 @media screen and (max-width: 430px){
@@ -361,5 +387,112 @@
 
 
     }
+}
+
+@media screen and (min-width: 962px){
+    #root > div > div.projects-section > div:nth-child(4) > img{
+
+            position: relative;
+        bottom: -3rem;
+
+    }
+
+    #root > div > div.projects-section > div:nth-child(5) > img{
+
+        position: relative;
+        bottom: -3.5rem; 
+
+    }
+
+    #root > div > div.projects-section > div:nth-child(6) > img{
+
+        position: relative;
+        bottom: -1.75rem;
+    
+
+    }
+}
+
+#root > div > div.projects-section > div:nth-child(6){
+    
+    padding-bottom: 30rem;
 
 }
+
+@media screen and (min-width: 846px){
+
+    #githubbtn {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
+
+
+@media screen and (min-width: 962px){
+
+#root > div > div.projects-section > div:nth-child(7) > img{
+
+    position: relative;
+    bottom: -3rem;
+
+}
+
+#root > div > div.projects-section > div:nth-child(8) > img{
+
+    position: relative;
+    bottom: -3rem;
+
+}
+}
+
+
+.learn-more-btn .design-document{
+
+    padding: 1rem;
+
+}
+
+#design-document-btn{
+
+
+    padding: 0.75rem 1rem;
+
+}
+
+@media screen and (max-width: 430px){
+
+    #design-document-btn{
+
+
+        padding: 0.6rem 0.5rem;
+    
+    }
+
+}
+
+
+.view-design-btn{
+
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    padding: 0.75rem 6.5rem;
+    font-size: 1rem;
+    background: rgb(216, 204, 126);
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
+
+.view-design-btn:hover{
+
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s;
+  
+  }

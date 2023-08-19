@@ -1,6 +1,6 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import IntroImg from "../assets/bg-img-home.png";
+import IntroImg from "../assets/bg-img-home-optimized.png";
 import { Link } from "react-router-dom";
 
 

@@ -7,15 +7,11 @@ import Black from "../assets/#000000.png";
 import Blue from "../assets/blue.png";
 import White from "../assets/#FFFFFF.png";
 import YvrLogo from "../assets/yvr-logo.png";
-import MovieManiacsMobile from "../assets/phone-template.png";
 import YvrWearLaptopImg from "../assets/yvr-single-preview.png";
 import MobilePhonePreview from "../assets/mobile-phone-preview.png";
 import MobileAboutPage from "../assets/phone-template-about-page.png";
 import MobileCartPage from "../assets/mobile-cart-page.png";
 import MobileMensPage from "../assets/phone-template-mens-page.png";
-
-
-
 import { Link } from "react-router-dom";
 import { IoMdArrowDropleft } from "react-icons/io";
 import { IoMdArrowDropright } from "react-icons/io";
@@ -328,7 +324,7 @@ const MovieManiacsContent = () => {
             <a href="https://merchandise.bcitwebdeveloper.ca/" className='end-page-btn'>View Live</a>
             <a href="https://github.com/htpwebdesign/merchandise-theme" className='end-page-btn-light'>Github</a>
           
-        <Link to  = "/yvrwear" className = "next-project-btn">Next Project</Link>
+        <Link to  = "/webportfolio" className = "next-project-btn">Next Project</Link>
         <IoMdArrowDropright className='return-home-btn' size={30} style={{color: "#fff", position: "relative", bottom: "-0.6rem"}}/>
   
         </div>

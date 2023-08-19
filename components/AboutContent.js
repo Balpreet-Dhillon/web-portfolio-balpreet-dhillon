@@ -64,6 +64,9 @@ const AboutContentStyles = () => {
                         <li>GitHub</li>   
                         <li>WooCommerce</li>   
                         <li>UX Design</li>   
+                        <li>SiteGround</li>   
+                        <li>FileZilla</li>
+                        <li>Bootstrap</li>      
               
                 </ul>
 

@@ -1,5 +1,5 @@
 import "./HeroImg3Styles.css"; 
-import AboutMeHeroImg from "../assets/about-me-portfolio-picture.jpg";
+import AboutMeHeroImg from "../assets/about-me-portfolio-picture.png";
 
 import React, { Component } from 'react'
 

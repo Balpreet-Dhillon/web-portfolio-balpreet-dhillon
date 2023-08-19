@@ -1,6 +1,5 @@
 import React from 'react';
 import"./MovieManiacsStyles.css";
-import DesktopTemplate from "../assets/laptop-preview-template.png";
 import Black from "../assets/#000000.png";
 import DarkGrey from "../assets/#171717.png";
 import White from "../assets/#FFFFFF.png";
@@ -8,16 +7,12 @@ import Beige from "../assets/#216204126.png";
 import WebPortofolioLogo from "../assets/big-logo.png";
 import PortfolioLaptopImg from "../assets/portfolio-desktop-preview.png";
 import MobilePortfolioHomePage from "../assets/home-page-mobile.png";
-
 import DesktopPortfolioHomePage from "../assets/desktop-portfolio-home.png";
 import DesktopPortfolioInDepthPage from "../assets/desktop-in-depth-portfolio.png";
 import DesktopPortfolioAboutPage from "../assets/about-page-desktop.png";
-
-
 import MobilePortfolioInDepthPage from "../assets/mobile-in-depth-page.png";
 import MobilePortfolioProjectPage from "../assets/projects-page-mobile.png";
 import MobilePortfolioAboutMePage from "../assets/about-page-portfolio.png";
-
 import { Link } from "react-router-dom";
 import { IoMdArrowDropleft } from "react-icons/io";
 import { IoMdArrowDropright } from "react-icons/io";
@@ -92,7 +87,7 @@ const MovieManiacsContent = () => {
           <div className='movie-maniac-project-overview-buttons'>
             
           <a href="https://balpreetdhillon.com/" className='movie-maniac-btn'>View Live</a>
-          <a href="mailto:balpreetd@live.ca" className='movie-maniac-btn-light'>Github</a>
+          <a href="https://github.com/Balpreet-Dhillon/web-portfolio-balpreet-dhillon" className='movie-maniac-btn-light'>Github</a>
 
           </div>
         </div>
@@ -343,9 +338,9 @@ const MovieManiacsContent = () => {
         <Link to  = "/" className = "return-home-btn">Return Home</Link>
             
             <a href="https://balpreetdhillon.com/" className='end-page-btn'>View Live</a>
-            <a href="https://github.com/Balpreet-Dhillon/moviemaniacs" className='end-page-btn-light'>Github</a>
+            <a href="https://github.com/Balpreet-Dhillon/web-portfolio-balpreet-dhillon" className='end-page-btn-light'>Github</a>
           
-        <Link to  = "/yvrwear" className = "next-project-btn">Next Project</Link>
+        <Link to  = "/moviemaniacs" className = "next-project-btn">Next Project</Link>
         <IoMdArrowDropright className='return-home-btn' size={30} style={{color: "#fff", position: "relative", bottom: "-0.6rem"}}/>
   
         </div>

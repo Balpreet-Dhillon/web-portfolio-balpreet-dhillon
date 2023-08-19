@@ -1,5 +1,5 @@
 import "./HeroImg4Styles.css"; 
-import WorkHeroImg from "../assets/contact-me-picture.jpg";
+import WorkHeroImg from "../assets/contact-me-picture.png";
 
 import React, { Component } from 'react'
 
